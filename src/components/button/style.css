@@ -1,0 +1,13 @@
+.btn-style{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.close-btn{
+    padding: 5px;
+    cursor: pointer;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
