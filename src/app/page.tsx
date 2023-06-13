@@ -21,32 +21,3 @@ export default function Home() {
     </main>
   );
 }
-
-{
-  /* <Button shape="round" size="large" variant="primary">
-          Primary Button
-        </Button>
-        <Button size="medium" variant="default">
-          Default Button
-        </Button>
-        <Button shape="round" size="small" variant="dashed">
-          Dashed Button
-        </Button>
-        <Button shape="round" size="large" variant="danger">
-          Danger
-        </Button>
-        <Button
-          shape="round"
-          size="medium"
-          icon={<LoadIcon />}
-          variant="primary"
-        >
-          Download
-        </Button>
-        <Button
-          shape="circle"
-          size="medium"
-          icon={<LoadIcon />}
-          variant="primary"
-        /> */
-}
