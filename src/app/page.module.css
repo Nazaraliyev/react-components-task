@@ -7,6 +7,12 @@
   min-height: 100vh;
 }
 
+.buttons {
+  display: grid;
+  gap: 10px;
+  place-items: center;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

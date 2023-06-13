@@ -1,0 +1,79 @@
+.button {
+  border: none;
+  padding: 10px 20px;
+
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 5px;
+}
+
+.large {
+  width: 180px;
+  font-size: 20px;
+}
+
+.medium {
+  width: 150px;
+  font-size: 16px;
+}
+
+.small {
+  width: 150px;
+  font-size: 16px;
+}
+
+.round {
+  border-radius: 5px;
+}
+
+.circle {
+  width: auto;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  background-color: gray;
+}
+
+.primary {
+  background-color: #1677ff;
+  color: white;
+  
+}
+.primary:hover {
+  background-color: #3f79cc;
+}
+
+.default {
+  border: 1px solid gray;
+}
+
+.dashed {
+  border: 1px dashed gray;
+}
+
+.default:hover,
+.dashed:hover {
+  border-color: #1677ff;
+  color: #1677ff;
+}
+
+.danger {
+  border: 1px solid red;
+  color: red;
+}
+
+.danger:hover {
+  border-color: rgb(214, 5, 5);
+  color: rgb(214, 5, 5);
+}
+
+.buttonElements {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
