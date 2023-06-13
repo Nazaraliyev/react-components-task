@@ -4,6 +4,7 @@
 }
 
 .close-btn{
+    float:right;
     padding: 5px;
     cursor: pointer;
     background-color: inherit;

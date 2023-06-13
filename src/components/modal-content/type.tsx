@@ -1,7 +1,6 @@
 import React from "react";
 
 interface ModalInterface {
-    text?: string,
     className?: string,
     show: boolean,
     data:any[],
